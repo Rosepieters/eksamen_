@@ -1,0 +1,318 @@
+@font-face {
+  font-family: font1;
+  src: url(/fonts/Arapey-Regular.woff);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(/fonts/Assistant-VariableFont_wght.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overskrift_logo {
+  font-family: font1;
+  font-weight: 400;
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 70px;
+  color: #333;
+}
+
+/*overskrift*/
+.blomst {
+  width: 6%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blomst_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.mit_logo,
+.overskrift_logo {
+  padding-top: 0; /* Fjerner padding-bottom for denne specifikke logo */
+}
+
+.blomst_container:hover .blomst {
+  transform: scale(1.2); /* Juster skalaen efter ønsket zoomniveau */
+}
+/*overskrift*/
+
+body {
+  background-color: rgba(201, 200, 195, 0.611);
+}
+
+h1 {
+  font-family: font1;
+  color: #333;
+}
+
+h2 {
+  font-family: font1;
+  font-size: 23px;
+  color: #333;
+}
+
+p {
+  font-family: font2;
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 12px;
+  line-height: 2;
+  color: #333;
+}
+
+/* link */
+a {
+  text-decoration: none; /* Fjern understregning */
+  color: inherit; /* Arver farven fra det omkringliggende element (samme farve som normal tekst) */
+}
+
+a:hover {
+  color: inherit; /* Ingen farveændring ved hover */
+}
+/* link */
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*NAV*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin: 0 30%;
+}
+
+nav li {
+  color: #333;
+  font-family: "Arapey", serif;
+  text-decoration: none;
+}
+
+nav a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active,
+nav li.active a {
+  text-decoration: underline;
+}
+
+/*undermenu kategori*/
+.portfolio_menu {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.portfolio_menu a.active {
+  text-decoration: underline;
+}
+
+.undermenu h2 {
+  position: relative;
+  font-size: 15px;
+  color: #888888;
+  top: 17px;
+  right: -185px;
+  text-align: center;
+}
+
+.undermenu_burger {
+  display: none;
+}
+/*undermenu kategori*/
+
+/*NAV*/
+
+/*Footer*/
+.navn_footer {
+  padding-top: 20px;
+}
+
+.insta {
+  padding-top: 3.5px;
+}
+
+.mail {
+  padding-top: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  padding-top: 80px;
+}
+
+.icons a {
+  margin-right: 7px; /* Fjern margen mellem ikonerne */
+}
+
+.icons img {
+  width: 35px; /* Juster bredden på ikonerne efter behov */
+}
+/*Footer*/
+
+/*BURGER-MENU*/
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.bar {
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+  width: 30px;
+  height: 2px;
+}
+
+.close-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.close-icon .bar {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-3px, -2px);
+}
+
+.burger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-14px, -7px);
+}
+/*BURGER-MENU*/
+
+@media (min-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+  .navn_footer {
+    padding-top: 5px;
+  }
+
+  .icons {
+    padding-top: 55px;
+  }
+
+  .blomst_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+  }
+
+  .overskrift_logo {
+    font-family: "Arapey", serif;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #333;
+  }
+
+  .blomst {
+    width: 14%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .nav.active ul {
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    right: 0;
+    background-color: #ffffff;
+    list-style: none;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  }
+
+  .nav.active ul li {
+    padding: 10px;
+  }
+
+  #active {
+    text-decoration: underline;
+  }
+
+  .undermenu h2 {
+    display: none;
+  }
+
+  .undermenu_burger {
+    position: relative;
+    font-size: 15px;
+    color: #888888;
+    top: 20px;
+    right: -200px;
+    text-align: center;
+  }
+}
+
+.content {
+  padding: 20px;
+}

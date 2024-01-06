@@ -1,0 +1,60 @@
+
+.overskrift_logo {
+  font-family: font1;
+  font-weight: 400;
+  font-size: 90px;
+  text-align: center;
+}
+
+/*overskrift*/
+.blomst {
+  width: 6%;
+  height: auto;
+}
+
+.blomst_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+}
+
+.mit_logo {
+  padding-top: 90%; /* Fjerner padding-bottom for denne specifikke logo */
+}
+/*overskrift*/
+
+/*video*/
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+}
+
+video.video_file {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+/*video*/
+
+@media (max-width: 800px) {
+  .overskrift_logo {
+    font-family: "Arapey", serif;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .blomst_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+  }
+  .blomst {
+    width: 11%;
+    height: auto;
+  }
+}
