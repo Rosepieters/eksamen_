@@ -101,19 +101,8 @@ nav ul {
 
 nav li {
   color: #333;
-  font-family: "Arapey", serif;
-  text-decoration: none;
-}
-
-nav a {
-  color: #333;
-  font-size: 20px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-nav a:link {
-  text-decoration: none;
+  font-family: font1;
+  /*text-decoration: none;*/
 }
 
 nav a:hover,
@@ -122,30 +111,12 @@ nav li.active a {
   text-decoration: underline;
 }
 
-/*undermenu kategori*/
-.portfolio_menu {
-  padding-top: 36px;
-  text-align: center;
+nav a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
 }
-
-.portfolio_menu a.active {
-  text-decoration: underline;
-}
-
-.undermenu h2 {
-  position: relative;
-  font-size: 15px;
-  color: #888888;
-  top: 17px;
-  right: -185px;
-  text-align: center;
-}
-
-.undermenu_burger {
-  display: none;
-}
-/*undermenu kategori*/
-
 /*NAV*/
 
 /*Footer*/
@@ -299,18 +270,6 @@ nav li.active a {
     text-decoration: underline;
   }
 
-  .undermenu h2 {
-    display: none;
-  }
-
-  .undermenu_burger {
-    position: relative;
-    font-size: 15px;
-    color: #888888;
-    top: 20px;
-    right: -200px;
-    text-align: center;
-  }
 }
 
 .content {

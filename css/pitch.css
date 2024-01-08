@@ -40,19 +40,18 @@ h1{
   width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
   height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
   margin-top: 24px;
-  padding-left: 30px;
   border-color: rgb(240, 238, 234);
   background-color: rgb(240, 238, 234);
 }
 
 .h2_box{
-font-size: 22px;
-text-decoration: underline;
-padding-bottom: 10px;
+  font-size: 22px;
+  text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 .p_box{
-font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
 }
 /* Info boks */
@@ -71,7 +70,6 @@ font-size: 16px;
   border-color: #ffffff;
   background-color: #ffffff;
 }
-  
   
 /* Link der fører videre */
 .link_box {
@@ -141,9 +139,16 @@ font-size: 16px;
     margin: 0 auto; /* Centrer elementerne horisontalt */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer elementerne horisontalt */
     padding-left: 0;
     margin-top: 24px;
+  }
+
+  .h2_box{
+    text-align: center;
+  }
+
+  .p_box{
+    padding-left: 30px;
   }
 
   .ferdige_resultat {

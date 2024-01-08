@@ -31,13 +31,12 @@ h1{
   
 /* Info boks */
 .div_box {
-  border: 1px solid #ccc !important;
+  border: 1px solid #ccc;
   border-radius: 20px;
   padding: 36px;
   width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
   height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
   margin-top: 24px;
-  padding-left: 30px;
   border-color: rgb(240, 238, 234);
   background-color: rgb(240, 238, 234);
 }
@@ -98,12 +97,18 @@ font-size: 16px;
 }
 /* Link der fører videre */
 
-
 .fotos_omanoasis{
   padding-top: 4%;
   padding-left: 2%;
   transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
 }  
+
+.skiftende_billeder{
+  max-width: 500px;
+  width: 100%;
+  padding-top: 70px;
+  margin-left: 10%;
+}
 
 @media (max-width: 800px) {
   h1 {
@@ -150,9 +155,16 @@ font-size: 16px;
     margin: 0 auto; /* Centrer elementerne horisontalt */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer elementerne horisontalt */
     padding-left: 0;
     margin-top: 24px;
+  }
+
+  .h2_box{
+    text-align: center;
+  }
+
+  .p_box{
+    padding-left: 30px;
   }
 
   .faser {

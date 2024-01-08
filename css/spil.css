@@ -37,9 +37,8 @@ h1{
   border-radius: 20px;
   padding: 36px;
   width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
-  height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
+  height: 280px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
   margin-top: 24px;
-  padding-left: 30px;
   border-color: rgb(240, 238, 234);
   background-color: rgb(240, 238, 234);
 }
@@ -162,10 +161,17 @@ video {
     margin: 0 auto; /* Centrer elementerne horisontalt */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer elementerne horisontalt */
     padding-left: 0;
     margin-top: 24px;
-    height: 370px;
+    height: 310px;
+  }
+
+  .h2_box{
+    text-align: center;
+  }
+
+  .p_box{
+    padding-left: 30px;
   }
 
   .ferdige_resultat {
