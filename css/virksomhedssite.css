@@ -162,4 +162,8 @@ h1 {
     padding-left: 72px;
     border-bottom-width: 1px; /* Juster dette efter behov for at ændre bredden af border-bottom på mobil */
   }
+
+  .skiftende_billeder{
+    padding-top: 40px;
+  }
 }

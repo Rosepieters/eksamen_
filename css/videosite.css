@@ -21,13 +21,13 @@ h1{
   padding-left: 200px;
 }
 
-/* Info boks */
 .sec_rolle{
   justify-content: center;
   align-items: center;
   padding-left: 250px;
 }
 
+/* Info boks */
 .div_box {
   border: 1px solid #ccc !important;
   border-radius: 20px;

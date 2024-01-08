@@ -31,13 +31,10 @@ h1 {
   justify-content: flex-end; /* Justerer indholdet til højre */
   gap: 40px;
   padding-right: 120px;
-
   object-fit: cover;
   align-self: stretch;
   max-width: 100%;
 }
-
-
 
 /* Image hover + tekst */
 .image_container {
@@ -72,8 +69,6 @@ h1 {
   opacity: 1; /* Gør teksten synlig ved hover */
 }
 
-/* KIG HER ROSE DU SKAL ÆNDRE DEN DER HEDDER WIDTH ______________________________________*/
-
 .image_container img {
   width: 100%; /* For at sikre, at billedet udfylder containeren */
   height: 100%;
@@ -84,6 +79,20 @@ h1 {
 }
 /* Image hover + tekst */
 
+
+@media (min-width:800px){
+  .grid_1 {
+    /* padding-top: 10px;
+    padding-right: 56%; */
+    width: 52%;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: flex-end; /* Justerer indholdet til højre */
+    gap: 40px;
+    padding-right: 120px;
+  }
+}
 
 @media (max-width: 800px) {
   h1 {
@@ -100,13 +109,6 @@ h1 {
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-  }
-  .web_billeder {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-evenly; */
-    justify-items: center;
-    gap: 3em;
   }
 
   .overskrift {
@@ -163,16 +165,4 @@ h1 {
     max-width: 100%;
   }
 }
-@media (min-width:800px){
-  .grid_1 {
-    /* padding-top: 10px;
-    padding-right: 56%; */
-    width: 52%;
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    justify-content: flex-end; /* Justerer indholdet til højre */
-    gap: 40px;
-    padding-right: 120px;
-  }
-}
+

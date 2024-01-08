@@ -25,13 +25,13 @@ h1{
   padding-top: 50px;
 }
 
-/* Info boks */
 .sec_rolle{
   justify-content: center;
   align-items: center;
   padding-left: 250px;
 }
 
+/* Info boks */
 .div_box {
   border: 1px solid #ccc !important;
   border-radius: 20px;
@@ -107,19 +107,12 @@ video {
   padding-right: 5%;
   padding-bottom: 10%;
 }
-
-@media (min-width: 800px) {
-  .video {
-    padding-top: 40px;
-    margin-top: 60px;
-  }
-}
 /* Video */
 
 @media (max-width: 800px) {
   h1 {
-    margin-left: 0px;
-    margin-right: 35px;
+    padding-left: 0px;
+    padding: 35px;
     padding-top: 50px;
     padding-bottom: 15px;
     font-size: 24px;
@@ -149,7 +142,7 @@ video {
 
   .sec_opgave {
     padding-left: 0;
-    margin: 0 auto; /* Centrer elementet horisontalt */
+    padding: 0 auto; /* Centrer elementet horisontalt */
   }
 
   .sec_rolle{
@@ -195,5 +188,6 @@ video {
 
   .spil_video{
     padding-top: 7%;
+    padding-left: 40px;
   }
 }

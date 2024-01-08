@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-/*overskrift*/
+/* overskrift */
 .blomst {
   width: 6%;
   height: auto;
@@ -16,29 +16,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 15%;
+  padding-top: 220px;
 }
+/* overskrift */
 
-.mit_logo {
-  padding-top: 90%; /* Fjerner padding-bottom for denne specifikke logo */
-}
-/*overskrift*/
-
-/*video*/
+/* video */
 body,
 html {
   margin: 0;
   overflow: hidden;
 }
 
-video.video_file {
+.video_file {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
   position: fixed;
   z-index: -1;
 }
-/*video*/
+/* video */
 
 @media (max-width: 800px) {
   .overskrift_logo {
@@ -51,7 +47,7 @@ video.video_file {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30%;
+    padding-top: 19px;
   }
   .blomst {
     width: 11%;

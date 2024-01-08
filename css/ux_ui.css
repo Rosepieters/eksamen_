@@ -7,7 +7,6 @@ h1{
   padding-top: 100px;
   padding-left: 100px;
 }
-  
 
 .sec_emne{
   display: grid;
@@ -27,7 +26,6 @@ h1{
   align-items: center;
   padding-left: 250px;
 }
-  
   
 /* Info boks */
 .div_box {
@@ -79,7 +77,6 @@ font-size: 16px;
   background-color: #ffffff;
 }
 
-  
 /* Link der fører videre */
 .link_box {
   text-decoration: none; /* Fjerner understregning */
@@ -96,12 +93,6 @@ font-size: 16px;
   border-bottom: 2px solid #333; /* Viser stregen ved hover */
 }
 /* Link der fører videre */
-
-.fotos_omanoasis{
-  padding-top: 4%;
-  padding-left: 2%;
-  transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
-}  
 
 .skiftende_billeder{
   max-width: 500px;
@@ -193,8 +184,8 @@ font-size: 16px;
     border-bottom-width: 1px; /* Juster dette efter behov for at ændre bredden af border-bottom på mobil */
   }
 
-  .fotos_omanoasis{
-    padding-top: 5%;
+  .skiftende_billeder{
+    padding-top: 40px;
   }
 }
 

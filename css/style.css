@@ -1,3 +1,4 @@
+/* Mine fonte */
 @font-face {
   font-family: font1;
   src: url(/fonts/Arapey-Regular.woff);
@@ -7,6 +8,7 @@
   font-family: font2;
   src: url(/fonts/Assistant-VariableFont_wght.woff);
 }
+/* Mine fonte */
 
 * {
   margin: 0;
@@ -23,7 +25,7 @@
   color: #333;
 }
 
-/*overskrift*/
+/* Logo */
 .blomst {
   width: 6%;
   height: auto;
@@ -45,7 +47,7 @@
 .blomst_container:hover .blomst {
   transform: scale(1.2); /* Juster skalaen efter ønsket zoomniveau */
 }
-/*overskrift*/
+/* Logo */
 
 body {
   background-color: rgba(201, 200, 195, 0.611);
@@ -54,12 +56,14 @@ body {
 h1 {
   font-family: font1;
   color: #333;
+  font-weight: 400;
 }
 
 h2 {
   font-family: font1;
   font-size: 23px;
   color: #333;
+  font-weight: 400;
 }
 
 p {
@@ -88,7 +92,7 @@ img {
   display: block;
 }
 
-/*NAV*/
+/* NAV */
 nav ul {
   display: flex;
   flex-direction: row;
@@ -117,7 +121,7 @@ nav a {
   text-decoration: none;
   display: inline-block;
 }
-/*NAV*/
+/* NAV */
 
 /*Footer*/
 .navn_footer {
@@ -150,7 +154,7 @@ nav a {
 }
 /*Footer*/
 
-/*BURGER-MENU*/
+/* BURGER-MENU */
 .burger-menu {
   display: none;
   flex-direction: column;
@@ -191,7 +195,7 @@ nav a {
 .burger-menu.open .bar:nth-child(3) {
   transform: rotate(45deg) translate(-14px, -7px);
 }
-/*BURGER-MENU*/
+/* Burger-menu */
 
 @media (min-width: 800px) {
   footer {
@@ -269,9 +273,4 @@ nav a {
   #active {
     text-decoration: underline;
   }
-
-}
-
-.content {
-  padding: 20px;
 }

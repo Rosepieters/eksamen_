@@ -171,7 +171,7 @@ h1 {
     border-bottom-width: 1px; /* Juster dette efter behov for at ændre bredden af border-bottom på mobil */
   }
 
-  .fotos_website {
-    padding-top: 5%;
+  .skiftende_billeder{
+    padding-top: 40px;
   }
 }
