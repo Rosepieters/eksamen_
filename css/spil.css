@@ -70,11 +70,6 @@ font-size: 16px;
   background-color: #ffffff;
 }
 
-.resultat_foto{
-  padding-top: 70px;
-  transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
-}
-
 /* Link der fører videre */
 .link_box {
   text-decoration: none; /* Fjerner understregning */

@@ -25,7 +25,7 @@
   color: #333;
 }
 
-/* Logo */
+/* Logo på alle andre sider end forsiden */
 .blomst {
   width: 6%;
   height: auto;
@@ -47,7 +47,7 @@
 .blomst_container:hover .blomst {
   transform: scale(1.2); /* Juster skalaen efter ønsket zoomniveau */
 }
-/* Logo */
+/* Logo på alle andre sider end forsiden */
 
 body {
   background-color: rgba(201, 200, 195, 0.611);
