@@ -38,7 +38,7 @@ html {
 
 @media (max-width: 800px) {
   .overskrift_logo {
-    font-family: "Arapey", serif;
+    font-family: font1;
     font-size: 60px;
     text-align: center;
   }
@@ -47,7 +47,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 19px;
+    padding-top: 180px;
   }
   .blomst {
     width: 11%;
