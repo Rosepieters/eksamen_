@@ -21,19 +21,19 @@ h1 {
   padding-left: 200px;
 }
 
-/* Info boks */
 .sec_rolle {
   justify-content: center;
   align-items: center;
   padding-left: 250px;
 }
 
+/* Info boks */
 .div_box {
   border: 1px solid #ccc !important;
   border-radius: 20px;
   padding: 36px;
   width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
-  height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
+  height: 277px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
   margin-top: 24px;
   border-color: rgb(240, 238, 234);
   background-color: rgb(240, 238, 234);
@@ -88,7 +88,6 @@ h1 {
   padding-top: 82px;
   margin-left: 10%;
 }
-/* skiftende billeder */
 
 @media (max-width: 800px) {
   h1 {
