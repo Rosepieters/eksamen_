@@ -41,11 +41,11 @@
 
 .mit_logo,
 .overskrift_logo {
-  padding-top: 0; /* Fjerner padding-bottom for denne specifikke logo */
+  padding-top: 0; 
 }
 
 .blomst_container:hover .blomst {
-  transform: scale(1.2); /* Juster skalaen efter ønsket zoomniveau */
+  transform: scale(1.2); 
 }
 /* Logo på alle andre sider end forsiden */
 
@@ -77,12 +77,12 @@ p {
 
 /* link */
 a {
-  text-decoration: none; /* Fjern understregning */
-  color: inherit; /* Arver farven fra det omkringliggende element (samme farve som normal tekst) */
+  text-decoration: none; 
+  color: inherit; 
 }
 
 a:hover {
-  color: inherit; /* Ingen farveændring ved hover */
+  color: inherit; 
 }
 /* link */
 
@@ -146,11 +146,11 @@ nav a {
 }
 
 .icons a {
-  margin-right: 7px; /* Fjern margen mellem ikonerne */
+  margin-right: 7px; 
 }
 
 .icons img {
-  width: 35px; /* Juster bredden på ikonerne efter behov */
+  width: 35px; 
 }
 /*Footer*/
 
@@ -232,7 +232,7 @@ nav a {
   }
 
   .overskrift_logo {
-    font-family: "Arapey", serif;
+    font-family: font1;
     font-size: 60px;
     text-align: center;
     padding-bottom: 20px;
@@ -268,9 +268,5 @@ nav a {
 
   .nav.active ul li {
     padding: 10px;
-  }
-
-  #active {
-    text-decoration: underline;
   }
 }

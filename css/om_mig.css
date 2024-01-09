@@ -35,7 +35,7 @@ h1 {
 .billede_rose, .billede_rosehund{
   padding-left: 10%;
   padding-right: 10%;
-  transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
+  transform: scale(0.8); 
 }
 
 .rose_skolen{
@@ -89,7 +89,7 @@ h1 {
   
   .om_mig {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 0; /* Juster dette efter behov */
+    padding-left: 0; 
     gap: 7px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -104,7 +104,7 @@ h1 {
   
   .rose_skolen {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 0; /* Juster dette efter behov */
+    padding-left: 0; 
     padding-bottom: 0;
     gap: 0;
     padding-top: 50px;
@@ -126,10 +126,10 @@ h1 {
   }
   
   .cv, .uddannelse {
-    margin: 0 auto; /* Centrer elementerne horisontalt */
+    margin: 0 auto; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer elementerne horisontalt */
+    align-items: center; 
     padding-left: 0;
   }
 }

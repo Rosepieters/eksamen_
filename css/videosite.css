@@ -29,11 +29,11 @@ h1{
 
 /* Info boks */
 .div_box {
-  border: 1px solid #ccc !important;
+  border: 1px solid #ccc ;
   border-radius: 20px;
   padding: 36px;
-  width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
-  height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
+  width: 265px; 
+  height: 250px; 
   margin-top: 24px;
   border-color: rgb(240, 238, 234);
   background-color: rgb(240, 238, 234);
@@ -72,18 +72,18 @@ h1{
   
 /* Link til videosite*/
 .link_box {
-  text-decoration: none; /* Fjerner understregning */
-  display: inline-block; /* Gør linket til et blok-element, så styling som margin og padding fungerer korrekt */
-  color: #333; /* Tekstfarve */
+  text-decoration: none; 
+  display: inline-block; 
+  color: #333; 
   font-size: 20px;
   padding-top: 20px;
   padding-left: 4px;
-  border-bottom: 2px solid transparent; /* Streg i bunden, starter som gennemsigtig */
-  transition: border-bottom 0.3s; /* Overgangseffekt på stregen */
+  border-bottom: 2px solid transparent; 
+  transition: border-bottom 0.3s; 
 }
   
 .link_box:hover {
-  border-bottom: 2px solid #333; /* Viser stregen ved hover */
+  border-bottom: 2px solid #333; 
 }
 /* Link der fører videre */
 
@@ -144,7 +144,7 @@ video {
 
   .sec_opgave {
     padding-left: 0;
-    margin: 0 auto; /* Centrer elementet horisontalt */
+    margin: 0 auto; 
   }
 
   .sec_rolle{
@@ -153,7 +153,7 @@ video {
   }
 
   .div_box {
-    margin: 0 auto; /* Centrer elementerne horisontalt */
+    margin: 0 auto; 
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -173,17 +173,17 @@ video {
     padding-top: 50px;
     padding-bottom: 50px;
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 0px; /* Juster dette efter behov */
-    padding-right: 20px; /* Juster dette efter behov */
+    padding-left: 0px; 
+    padding-right: 20px; 
     gap: 0;
   }
 
   .link_box {
-    display: inline-block; /* Gør linket til et blok-element, så styling som margin og padding fungerer korrekt */
+    display: inline-block; 
     font-size: 18px;
     padding-top: 20px;
     padding-left: 72px;
-    border-bottom-width: 1px; /* Juster dette efter behov for at ændre bredden af border-bottom på mobil */
+    border-bottom-width: 1px; 
   }
 
   .passion_video{
