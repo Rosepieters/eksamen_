@@ -1,13 +1,7 @@
 /* Mine fonte */
-@font-face {
-  font-family: font1;
-  src: url(/fonts/Arapey-Regular.woff);
-}
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&display=swap');
 
-@font-face {
-  font-family: font2;
-  src: url(/fonts/Assistant-VariableFont_wght.woff);
-}
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Assistant:wght@200;300&display=swap');
 /* Mine fonte */
 
 * {
@@ -17,8 +11,8 @@
 }
 
 .overskrift_logo {
-  font-family: font1;
-  font-weight: 400;
+  font-family: 'Arapey', serif;;
+  font-weight: 200;
   font-size: 70px;
   text-align: center;
   padding-bottom: 70px;
@@ -54,20 +48,20 @@ body {
 }
 
 h1 {
-  font-family: font1;
+  font-family: 'Arapey', serif;;
   color: #333;
   font-weight: 400;
 }
 
 h2 {
-  font-family: font1;
+  font-family: 'Arapey', serif;;
   font-size: 23px;
   color: #333;
   font-weight: 400;
 }
 
 p {
-  font-family: font2;
+  font-family:'Assistant', sans-serif;
   font-weight: 200;
   font-size: 20px;
   padding-top: 12px;
@@ -105,7 +99,7 @@ nav ul {
 
 nav li {
   color: #333;
-  font-family: font1;
+  font-family: 'Arapey', serif;;
   /*text-decoration: none;*/
 }
 
@@ -232,7 +226,7 @@ nav a {
   }
 
   .overskrift_logo {
-    font-family: font1;
+    font-family: 'Arapey', serif;;
     font-size: 60px;
     text-align: center;
     padding-bottom: 20px;
