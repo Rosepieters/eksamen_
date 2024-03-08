@@ -148,7 +148,6 @@ h1 {
     padding-top: 10px;
     padding-right: 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     justify-content: flex-end; 
     gap: 40px;
 
